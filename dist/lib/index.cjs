@@ -2,8 +2,8 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-function test() {
-    console.log('OK');
-}
+var rollupPluginCss = require('./rollupPluginCss.cjs');
 
-exports.test = test;
+
+
+exports.rollupPluginCss = rollupPluginCss.rollupPluginCss;

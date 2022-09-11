@@ -1,1 +1,1 @@
-export declare function test(): void;
+export * from './rollupPluginCss';

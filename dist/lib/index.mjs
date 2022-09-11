@@ -1,5 +1,1 @@
-function test() {
-    console.log('OK');
-}
-
-export { test };
+export { rollupPluginCss } from './rollupPluginCss.mjs';
